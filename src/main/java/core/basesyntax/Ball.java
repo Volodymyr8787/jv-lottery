@@ -2,9 +2,9 @@ package core.basesyntax;
 
 public class Ball {
     private int number;
-    private String color;
+    private Colors color;
 
-    public void setColor(String color) {
+    public void setColor(Colors color) {
         this.color = color;
     }
 

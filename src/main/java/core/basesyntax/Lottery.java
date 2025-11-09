@@ -9,9 +9,9 @@ public class Lottery {
     public Ball getRandomBall() {
         Ball ball = new Ball();
 
-        String color = colorSupplier.getRandomColor();
+        Colors color = colorSupplier.getRandomColor();
 
-        int number = random.nextInt(101);
+        int number = random.nextInt(100);
 
         ball.setColor(color);
         ball.setNumber(number);
