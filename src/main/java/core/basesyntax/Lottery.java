@@ -11,7 +11,7 @@ public class Lottery {
 
         Colors color = colorSupplier.getRandomColor();
 
-        int number = random.nextInt(100);
+        int number = random.nextInt(100 + 1);
 
         ball.setColor(color);
         ball.setNumber(number);
